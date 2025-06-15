@@ -12,12 +12,12 @@ body {
     font-family: Arial, sans-serif;
     gap: 10px;
     
-    background-color: white;
+    background-color: #ffffff;
 }
 
 #encabezado {
     height: 60px;
-    background-color: steelblue;
+    background-color: black;
     text-align: center;
 }
 
@@ -29,13 +29,13 @@ body {
 
 #barra-lateral {
     width: 100px;
-    background-color: indianred;
+    background-color: #84734d;
     
 }
 
 #contenido {
     flex: 1;
-    background-color: yellowgreen;
+    background-color: #d3d3d3;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -44,15 +44,17 @@ body {
 }
 
 .cuadro {
-    background-color: darkorange;
+    background-color: #000000;
     min-height: 100px;
 }
 
 #pie-pagina {
     height: 60px;
-    background-color: slateblue;
+    background-color: #161616;
 }
 #Titulo{
-    font-size: 50px;
+    color: white;
+    padding-top: 10px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
 }
