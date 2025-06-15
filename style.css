@@ -1,0 +1,58 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
+    gap: 10px;
+    
+    background-color: white;
+}
+
+#encabezado {
+    height: 60px;
+    background-color: steelblue;
+    text-align: center;
+}
+
+#principal {
+    display: flex;
+    flex: 1;
+    gap: 10px;
+}
+
+#barra-lateral {
+    width: 100px;
+    background-color: indianred;
+    
+}
+
+#contenido {
+    flex: 1;
+    background-color: yellowgreen;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.cuadro {
+    background-color: darkorange;
+    min-height: 100px;
+}
+
+#pie-pagina {
+    height: 60px;
+    background-color: slateblue;
+}
+#Titulo{
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
