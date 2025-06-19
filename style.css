@@ -58,3 +58,11 @@ body {
     font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
 }
+#Imagenpaloma{
+    width: 200px;
+    height: auto;
+}
+#textoblanco{
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
